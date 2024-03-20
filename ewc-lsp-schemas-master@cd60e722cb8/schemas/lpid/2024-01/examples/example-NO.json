@@ -1,0 +1,23 @@
+{
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    "type": ["VerifiableCredential", "LegalPID"],
+    "id": "https://example.com/credentials/123",
+    "issuer_id": "NOBBREG.974760673",
+    "issuer_name": "Registerenheten i Brønnøysund",
+    "issuer_country": "NO",
+    "authentic_source_id" : "NOBBREG.974760673",
+    "authentic_source_name" : "Registerenheten i Brønnøysund",
+    "issuanceDate": "2024-01-06T00:00:00Z",
+    "credentialSubject": {
+        "legal_person_id": "NOBRREG.915772137",
+        "legal_person_name": "SYMFONI AS"
+    },
+    "credentialStatus": {
+        "id": "https://example.europa.eu/status/77",
+        "type": "Revocation"
+    },
+    "credentialSchema": {
+        "id": "https://schema.bolagsverket.se/lpid/v1/schema.json",
+        "type": "FullJsonSchemaValidator2021"
+    }
+}
